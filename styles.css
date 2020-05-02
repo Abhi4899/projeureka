@@ -1,0 +1,141 @@
+body{
+  font-family: sans-serif;
+}
+
+/* sidebar */
+
+.sidebar{
+  background-color: #7bb3a9;
+  width: 15em;
+  height: 100%;
+  padding-top: 5em;
+  z-index: 1000;
+  position: fixed;
+  top: 4em;
+}
+.sidebarItem{
+  background-color: #0f806b;
+  color: white;
+  height: 3em;
+  padding: 0.7em 0 0 5em;
+}
+
+/* navbar */
+
+
+.navLink{
+  text-decoration: none;
+  color: black;
+}
+.navLink:hover{
+  text-decoration: none;
+  color: #696969;
+}
+.navBar{
+  background-color: #eee;
+  margin-right:0;
+  z-index: 1000;
+  position: relative;
+  left:15em;
+  position: fixed;
+}
+.navItem{
+  font-weight: bold;
+  padding: 1em 3.5em 0 0;
+}
+
+/* main */
+
+.mainEvery{
+  position: relative;
+  left: 15.4em;
+  top: 4.3em;
+}
+
+.btn{
+  position: relative;
+  left:5em;
+}
+.btn-lg{
+  background-color: #23c7ab;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-right: 80px;
+  padding-left: 70px;
+  left: 0px;
+  border: 0;
+}
+.btn-lg:hover{
+  background-color: #23c7aa;
+  transition: none;
+}
+.btn-lg:active{
+  background-color: #73d8c7;
+}
+
+/* level1 elements */
+
+.subelementLevel1{
+  margin-left: 5em;
+  width: 60.125em;
+}
+.subBtnLevel1{
+  text-align: left;
+  background-color: #eee;
+  width: 60em;
+  height: 4em;
+  padding-top: 1.25em;
+  border-radius: 2%;
+  transition: none;
+}
+.subBtnLevel1:hover{
+  background-color: #eee;
+  transition: none;
+  border: 0;
+}
+
+/* level2 elements */
+
+.subelementLevel2{
+  margin-left: 5em;
+  width: 55.120em;
+}
+.subBtnLevel2{
+  text-align: left;
+  background-color: #eee;
+  width: 55em;
+  height: 4em;
+  padding-top: 1.25em;
+  border-radius: 2%;
+  transition: none;
+}
+.subBtnLevel2:hover{
+  background-color: #eee;
+  transition: none;
+  border: 0;
+}
+
+/* level3 img card elements */
+.polaroid {
+  width: 14em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1.8em;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.imgBtn{
+  background-color: #23c7ab;
+  width: 14em;
+  position: relative;
+  border: 0.1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: none;
+}
+.imgBtn:hover{
+  background-color: #23c7aa;
+}
+.imgBtn:active{
+  background-color: #73d8c7;
+}
